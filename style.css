@@ -168,16 +168,6 @@ span {
     font-size: 1.5rem;
 }
 
-.pengurus h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #fff;
-    gap: 2rem;
-}
-
 .team-content {
     width: 100%;
     max-width: 1350px;
