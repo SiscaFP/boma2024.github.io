@@ -118,7 +118,7 @@ span {
 .home-content h1 {
     font-size: 2rem;
     font-weight: 700;
-    line-height: 2;
+    line-height: 1;
 }
 
 .social-media a {
@@ -166,16 +166,6 @@ span {
 .about-content p {
     color: var(--text-color);
     font-size: 1.5rem;
-}
-
-.pengurus h3 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 2.5rem;
-    font-weight: 700;
-    color: #fff;
-    gap: 2rem;
 }
 
 .team-content {
@@ -267,7 +257,103 @@ span {
     display: inline-block;}
   .contant_box_404{ margin-top:-50px;}
 
-  
+  .slider{
+    width: 100%;
+    /* height: 500px; */
+    overflow: hidden;
+}
+
+figure{
+    position: relative;
+    left: 0;
+    width: 400%; /* width dikali slide */
+    animation: 10s slide infinite;
+}
+
+.slide{
+    margin-top: 7rem;
+    position: relative;
+    width: 25%; /* width dibagi slide */
+    float: left;
+}
+
+.slide img {
+    width: 100%;
+    /* height: 500px; */
+}
+
+@keyframes slide{
+    0%{
+        left:0;
+    }
+    10%{
+        left:0;
+    }
+    20%{
+        left:-100%;
+    }
+    30%{
+        left:-100%;
+    }
+    40%{
+        left:-200%;
+    }
+    50%{
+        left:-200%;
+    }
+    55%{
+        left:-300%;
+    }
+    65%{
+        left:-300%;
+    }
+    66%{
+        left:-200%;
+    }
+    74%{
+        left:-200%;
+    }
+    75%{
+        left:-100%;
+    }
+    85%{
+        left:-100%;
+    }
+    90%{
+        left:0;
+    }
+    1000%{
+        left:0;
+    }
+}
+
+
+.volly h1 {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+.volly h2 {
+    margin-top: 1rem;
+    display: flex;
+    font-size: 2rem;
+}
+
+.volly h3 {
+    margin-top: 1rem;
+    display: flex;
+    font-size: 1.5rem;
+}
+.volly p {
+    margin-top: .5rem;
+    display: flex;
+    font-size: 1rem;
+    margin-bottom: 1rem;
+}
+
   /* BREAKSPOINT */
   @media (max-width: 1200px) {
     html {
@@ -332,7 +418,7 @@ span {
 
 .about img {
     width: 70vw;
-    margin-top: 2rem;
+    margin-top: 1rem;
 }
     }
   
