@@ -26,9 +26,13 @@ window.onscroll = () => {
         };
 
     });
+}
+
     /*====================== scroll sections active link ======================*/
     let header = document.querySelector('header');
 
     header.classList.toggle('sticky', window.scrollY > 100);
 
-};
+    let currentIndex = 0
+
+    
