@@ -168,6 +168,21 @@ span {
     font-size: 1.5rem;
 }
 
+.vismis h2 {
+    margin-top: 1rem;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.vismis p {
+    font-size: 1.5rem;
+    line-height: 1;
+    margin-top: .5rem;
+    line-height: 1;
+    letter-spacing: .1rem;
+}
+
+
 .team-content {
     width: 100%;
     max-width: 1350px;
@@ -228,6 +243,8 @@ span {
     color: #000000;
     box-shadow: 0 0 1.5rem var(--main-color);
 }
+
+
 .page_404{ padding:40px 0; background:#fff; font-family: 'Arvo', serif;
 }
 
